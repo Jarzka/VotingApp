@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.voimala.votingapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:debuggable="true">
+        <activity
+            android:name="org.voimala.votingapp.activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.voimala.votingapp.activities.OpenVotingActivity"
+            android:parentActivityName="org.voimala.votingapp.activities.MainActivity" />
+        <activity
+            android:name="org.voimala.votingapp.activities.ClosedVotingActivity"
+            android:parentActivityName="org.voimala.votingapp.activities.MainActivity" />
+        <activity
+            android:name="org.voimala.votingapp.activities.UpcomingVotingActivity"
+            android:parentActivityName="org.voimala.votingapp.activities.MainActivity" />
+        <activity
+            android:name="org.voimala.votingapp.activities.PreferencesActivity"
+            android:parentActivityName="org.voimala.votingapp.activities.MainActivity" />
+        
+        <service android:name="org.voimala.votingapp.services.LongPollingService"></service>
+        <service android:name="org.voimala.votingapp.services.NotificationService"></service> 
+    </application>
+
+</manifest>

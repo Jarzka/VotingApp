@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VotingApp</string>
+    
+    <!-- Action Bar texts  -->
+    <string name="action_settings">Settings</string>
+    <string name="action_qr">Read QR code</string>
+    
+    <!-- Tabs -->
+    <string name="tab_open_votings">Open</string>
+    <string name="tab_closed_votings">Closed</string>
+    <string name="tab_upcoming_votes">Upcoming</string>
+    
+    <!-- Settings -->
+    <string name="setting_server_url">Voting server URL</string>
+    <string name="show_notifications">Show notifications</string>
+    <string name="use_motion_sensor">Use motion sensor</string>
+    
+    <!-- Toasts -->
+    <string name="toast_votings_updated">Votings have been updated.</string>
+    <string name="toast_unable_to_get_votings">Unable to get votings from the server.</string>
+    <string name="toast_votings_parse_error">Unable to handle server response.</string>
+    <string name="toast_sending_vote">Sending vote...</string>
+    <string name="toast_requesting_votings">Requesting votings from the server.</string>
+    <string name="toast_send_vote_failed">Unable to send vote to the server.</string>
+    <string name="toast_vote_sent">Vote sent.</string>
+    <string name="toast_voting_ended">Voting ended.</string>
+    
+    <!-- Activities / Fragments -->
+    
+        <!-- Open Votings -->
+        <string name="open_votings">Open votings</string>
+        
+        <!-- Closed Votings -->
+        <string name="closed_votings">Closed votings</string>
+        
+        <!-- Upcoming Votings -->
+        <string name="upcoming_votings">Upcoming votings</string>
+    
+        <!-- Voting -->
+        <string name="voting_created_by">Created by</string>
+        <string name="voting_starts">Starts</string>
+        <string name="voting_ends">Ends</string>
+        <string name="voting_started">Started</string>
+        <string name="voting_ended">Ended</string>
+        <string name="voting_votesAmount">Votes</string>
+        
+        <!-- Preferences -->
+        <string name="preferences">Preferences</string>
+    
+</resources>

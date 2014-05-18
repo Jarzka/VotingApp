@@ -1,0 +1,11 @@
+<!--
+The view pager has been created with the help of the following AndroidHive tutorial:
+http://www.androidhive.info/2013/10/android-tab-layout-with-swipeable-views-1/
+Thank you AndroidHive!
+-->
+
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewPager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</android.support.v4.view.ViewPager>

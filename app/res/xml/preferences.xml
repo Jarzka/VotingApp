@@ -1,0 +1,22 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Server Settings">
+        
+        <EditTextPreference
+                android:key="server_url"
+                android:title="@string/setting_server_url"
+                android:defaultValue="http://aani.opimobi.com:2014/1.0/" />
+        <CheckBoxPreference 
+                android:key="show_notifications"
+                android:title="@string/show_notifications"
+                android:defaultValue="true" />
+        
+        <CheckBoxPreference 
+                android:key="use_motion_sensor"
+                android:title="@string/use_motion_sensor"
+                android:defaultValue="true" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
